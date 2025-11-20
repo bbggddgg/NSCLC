@@ -1,0 +1,9 @@
+{
+    "model": "torch_model",
+    "backbone_name": "",
+    "num_classes": 3,
+    "data_path": "/path/to/test.txt",
+    "ckpt_path": "/path/to/ssl2model/base/exp0/torch_model_checkpoint.pt",
+    "label_names": ["viable tumor", "stroma", "necrosis,\nkeratinization"],
+    "save_csv_path": "/path/to/ssl2model/base/exp0/torch_model.csv"
+}

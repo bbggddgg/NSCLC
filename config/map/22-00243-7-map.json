@@ -1,0 +1,8 @@
+{
+ "model": "MultiAttenTransModel",
+ "num_classes":3,
+ "patches_path": "/path/to/test/22-00243-7/tissue/PATCHES/level0",
+ "ckpt_path":"/path/to/sl2model/MultiAttenTransModel/exp0/MultiAttenTransModel_checkpoint.pt",
+ "save_csv_path": "/path/to/test/22-00243-7/tissue/MMT-Net_22-00243-7.csv",
+ "label_names":["viable_tumor", "stroma", "necrosis or keratinization"]
+}

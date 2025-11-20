@@ -1,0 +1,9 @@
+{
+    "model": "MultiAttenTransModel",
+    "backbone_name": "simclr_resnet18",
+    "num_classes": 3,
+    "data_path": "/path/to/test.txt",
+    "ckpt_path": "/path/to/sl2model/MultiAttenTransModel/exp0/MultiAttenTransModel_checkpoint.pt",
+    "label_names": ["viable tumor", "stroma", "necrosis,\nkeratinization"],
+    "save_csv_path": "/path/to/sl2model/MultiAttenTransModel/exp0/MultiAttenTransModel.csv"
+}

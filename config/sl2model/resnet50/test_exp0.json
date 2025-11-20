@@ -1,0 +1,9 @@
+{
+    "model": "resnet50_model",
+    "num_classes": 3,
+    "strategy": "",
+    "data_path": "/path/to/test.txt",
+    "ckpt_path": "/path/to/sl2model/resnet50/exp0/resnet50_checkpoint.pt",
+    "label_names": ["viable tumor", "stroma", "necrosis,\nkeratinization"],
+    "save_csv_path": "/path/to/sl2model/resnet50/exp0/resnet50.csv"
+}
