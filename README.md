@@ -14,3 +14,4 @@
 ## 使用提示
 - 预训练：按照 `mmselfsup` 官方流程复现 SimCLR/SimSiam/MoCo v3（ResNet-18），训练完将 backbone 权重放入 `model/` 或在配置中写入真实路径。
 - 下游训练/推理：选择相应的 `config/.../exp*.json`，补全数据与 checkpoint 路径后运行对应脚本。
+- 代码中多折交叉验证未更新（[TODO]），数据划分应按照病人划分，即没折中训练和验证的图像块来自不同病人。
